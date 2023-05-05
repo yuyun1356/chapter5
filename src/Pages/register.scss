@@ -1,0 +1,39 @@
+.register{
+    margin: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        color: white;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        input{
+            padding: 1rem 0;
+            padding-right: 8rem;
+            padding-left: 2rem;
+            border: 2px solid var(--color3);
+            border-radius: 1rem;
+        }
+
+        button{
+            padding: 1rem;
+            border: none;
+            background-color: var(--color3);
+            color: white;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    p{
+        color: white;
+    }
+}
